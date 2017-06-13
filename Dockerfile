@@ -1,6 +1,6 @@
 FROM flangelier/scala
 
-RUN wget https://github.com/JSalazr/Tarea4Scala.git
+RUN wget https://github.com/JSalazr/Tarea4Scala
 
 EXPOSE 8080
 
