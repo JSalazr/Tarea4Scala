@@ -1,6 +1,7 @@
 FROM flangelier/scala
 
 RUN wget https://github.com/JSalazr/Tarea4Scala/archive/master.zip
+RUN unzip master.zip
 
 EXPOSE 8080
 
